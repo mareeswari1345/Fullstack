@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .profile-img {
+      max-width: 180px;
+    }
+  </style>
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .profile-img {
+      max-width: 180px;
+    }
+ 
+    /* Running skills animation */
+    .skills-wrapper {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+ 
+    .skills-track {
+      display: inline-block;
+      animation: scrollSkills 15s linear infinite;
+    }
+ 
+    .skills-track span {
+      margin: 0 12px;
+      font-size: 1rem;
+    }
+ 
+    @keyframes scrollSkills {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+ 
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Student Portfolio</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Profile Section -->
+<section id="profile" class="pt-5 mt-5 bg-light">
+  <div class="container text-center">
+    <img src="C:\Users\23ucs080\Desktop\full\pi.jpg" class="img-fluid rounded-circle profile-img mb-3" loading="lazy" alt="Profile Image">
+    <h2>Sowmiya E</h2>
+    <p class="text-muted">Pre-Final Year | Computer Science Engineering</p>
+    <p>Passionate about Web Development and Problem Solving.</p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h3 class="text-center mb-4">Skills</h3>
+ 
+      <div class="skills-wrapper text-center">
+        <div class="skills-track">
+          <span class="badge bg-primary p-3">HTML</span>
+          <span class="badge bg-success p-3">CSS</span>
+          <span class="badge bg-warning text-dark p-3">JavaScript</span>
+          <span class="badge bg-info text-dark p-3">Bootstrap</span>
+          <span class="badge bg-danger p-3">React</span>
+          <span class="badge bg-secondary p-3">Java</span>
+          <span class="badge bg-dark border p-3">SQL</span>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center mb-4">Projects</h3>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="project1.png" class="card-img-top img-fluid" loading="lazy" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Luxeboutique</h5>
+            <p class="card-text">Web-based system using HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="project2.png" class="card-img-top img-fluid" loading="lazy" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Campus Hub</h5>
+            <p class="card-text">Weather forecasting website using live data .</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="project3.jpg" class="card-img-top img-fluid" loading="lazy" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Tamil Flix</h5>
+            <p class="card-text">Features like course recommendation,time table Schedule,ATS Friendly resume generationb.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container text-center">
+    <h3 class="mb-3">Contact</h3>
+    <p>Email: sowmiyaeswaran@gmail.com</p>
+    <p>Phone: +91 8220854096</p>
+    <p>LinkedIn: linkedin.com/in/sowmiya</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">© 2026 Sowmiya | Student Portfolio</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

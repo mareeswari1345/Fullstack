@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>TechNova Solutions</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);">
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top"
+style="background: linear-gradient(45deg, #1a2980 0%, #26d0ce 100%);">
+<div class="container">
+<a class="navbar-brand" href="#"
+style="font-weight: bold; letter-spacing: 1px; color: #ffdd40;">
+TechNova
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#team">Team</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section id="home" class="mt-5 pt-5">
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" style="margin-top:15px;">
+<div class="carousel-indicators" style="z-index:2;">
+<button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+
+<div class="carousel-inner">
+
+<div class="carousel-item active" aria-current="true"
+style="height:420px; background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); color:white;">
+<div class="container h-100">
+<div class="row align-items-center h-100">
+<div class="col-lg-6 text-start">
+<h1 style="margin-top:20px; text-shadow: 2px 2px 6px rgba(0,0,0,0.25);">Welcome to TechNova</h1>
+<p style="font-size:1.15rem; max-width:520px; text-shadow: 1px 1px 3px rgba(0,0,0,0.15);">
+Innovative IT & software services — web, mobile and cloud solutions built for scale.
+</p>
+<a href="#services" class="btn btn-light" style="color:#212529;">Our Services</a>
+</div>
+<div class="col-lg-6 d-none d-lg-block text-end">
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+alt="Company overview"
+style="max-width:520px; width:100%; height:300px; object-fit:cover; border-radius:8px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+</div>
+</div>
+</div>
+</div>
+
+<div class="carousel-item"
+style="height:420px; background: linear-gradient(45deg, #ff416c 0%, #ff4b2b 100%); color:white;">
+<div class="container h-100">
+<div class="row align-items-center h-100">
+<div class="col-lg-6 order-2 order-lg-1 text-start">
+<h1 style="margin-top:20px; text-shadow: 2px 2px 6px rgba(0,0,0,0.25);">Modern Web Development</h1>
+<p style="font-size:1.15rem; max-width:520px; text-shadow: 1px 1px 3px rgba(0,0,0,0.15);">
+Responsive, accessible and fast web applications using latest tools and best practices.
+</p>
+<a href="#projects" class="btn btn-light" style="color:#212529;">See Projects</a>
+</div>
+<div class="col-lg-6 order-1 order-lg-2 text-center">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+alt="Web development"
+style="max-width:520px; width:100%; height:300px; object-fit:cover; border-radius:8px; box-shadow: 0 10px 30px rgba(0,0,0,0.25);">
+</div>
+</div>
+</div>
+</div>
+
+<div class="carousel-item"
+style="height:420px; background: linear-gradient(45deg, #00b09b 0%, #96c93d 100%); color:white;">
+<div class="container h-100">
+<div class="row align-items-center h-100">
+<div class="col-lg-6 text-start">
+<h1 style="margin-top:20px; text-shadow: 2px 2px 6px rgba(0,0,0,0.25);">Cloud & Digital Solutions</h1>
+<p style="font-size:1.15rem; max-width:520px; text-shadow: 1px 1px 3px rgba(0,0,0,0.15);">
+Secure and scalable cloud architecture, DevOps workflows and managed infrastructure.
+</p>
+<a href="#contact" class="btn btn-light" style="color:#212529;">Contact Us</a>
+</div>
+<div class="col-lg-6 text-end d-none d-lg-block">
+<img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=80"
+alt="Cloud services"
+style="max-width:520px; width:100%; height:300px; object-fit:cover; border-radius:8px; box-shadow: 0 10px 30px rgba(0,0,0,0.25);">
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev"
+style="width:5%;">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next"
+style="width:5%;">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</section>
+
+<section id="about"
+style="padding: 70px 0;
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;">
+<div class="container text-center">
+<h2 style="margin-bottom: 20px;">About Us</h2>
+<p>
+TechNova Solutions is a modern IT company specializing in web,
+mobile, and cloud technologies. We help businesses grow through
+innovative and scalable digital solutions.
+</p>
+</div>
+</section>
+
+<section id="services" style="padding: 70px 0;">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Services</h2>
+
+    <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+      
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- Carousel Items -->
+      <div class="carousel-inner text-center">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="bg-white p-4 shadow rounded">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+                     class="img-fluid rounded mb-3" style="height:150px; object-fit:cover;">
+                <h5>Web Development</h5>
+                <p>Responsive and high-performance websites using modern tools.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="bg-white p-4 shadow rounded">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80"
+                     class="img-fluid rounded mb-3" style="height:150px; object-fit:cover;">
+                <h5>Mobile Apps</h5>
+                <p>Android and iOS applications customized for business needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="bg-white p-4 shadow rounded">
+                <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=80"
+                     class="img-fluid rounded mb-3" style="height:150px; object-fit:cover;">
+                <h5>Cloud Solutions</h5>
+                <p>Secure, scalable, and reliable cloud infrastructure services.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="team" style="padding: 70px 0;">
+<div class="container text-center">
+<h2 class="mb-5">Our Team</h2>
+
+<img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80"
+alt="Team at work"
+class="img-fluid rounded mb-4"
+style="max-width: 900px; box-shadow: 0 8px 20px rgba(0,0,0,0.2);">
+
+<div class="row">
+<div class="col-md-4 mb-4">
+<div role="img" aria-label="John Carter initials JC"
+style="width:120px; height:120px; border-radius:50%;
+display:flex; align-items:center; justify-content:center;
+margin:0 auto 12px; font-weight:700; font-size:34px; color:white;
+background: linear-gradient(45deg,#6a11cb,#2575fc); box-shadow:0 6px 18px rgba(0,0,0,0.15);">
+JC
+</div>
+<h5>John Carter</h5>
+<p style="margin-bottom:0;">Senior Developer</p>
+</div>
+
+<div class="col-md-4 mb-4">
+<div role="img" aria-label="Sarah Lee initials SL"
+style="width:120px; height:120px; border-radius:50%;
+display:flex; align-items:center; justify-content:center;
+margin:0 auto 12px; font-weight:700; font-size:34px; color:white;
+background: linear-gradient(45deg,#ff416c,#ff4b2b); box-shadow:0 6px 18px rgba(0,0,0,0.15);">
+SL
+</div>
+<h5>Sarah Lee</h5>
+<p style="margin-bottom:0;">UI/UX Designer</p>
+</div>
+
+<div class="col-md-4 mb-4">
+<div role="img" aria-label="David Kumar initials DK"
+style="width:120px; height:120px; border-radius:50%;
+display:flex; align-items:center; justify-content:center;
+margin:0 auto 12px; font-weight:700; font-size:34px; color:white;
+background: linear-gradient(45deg,#00b09b,#96c93d); box-shadow:0 6px 18px rgba(0,0,0,0.15);">
+DK
+</div>
+<h5>David Kumar</h5>
+<p style="margin-bottom:0;">Project Manager</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact"
+style="padding: 70px 0;
+background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+color: white;">
+<div class="container text-center">
+<h2>Contact Us</h2>
+<p>Email: contact@technova.com</p>
+<p>Phone: +91 98765 43210</p>
+<p>Location: Chennai, India</p>
+</div>
+</section>
+
+<footer class="text-center py-3"
+style="background: linear-gradient(45deg, #2c3e50 0%, #1a1a2e 100%);
+color: white;">
+© 2026 TechNova Solutions. All Rights Reserved.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
